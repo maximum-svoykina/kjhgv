@@ -5,63 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Меню</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <style>
-        .menu{
-            background: rgb(255, 153, 0);
-            font-family: fantasy;
-            position: fixed;
-            width: 100%;
-            font-size: 50px;
-            border-bottom: 4px solid rgb(247, 0, 255)
-        }
+    <header>
+            <div class="menu">
+                    <span class="menu-left">Меню</span>
+                    <span class="menu-right">
+                        <a href="#">хомяки</a>    
+                        <a href="#main">Главная</a>
+                            <a href="#footer">контакты</a>
+                    </span>   
+                </div> 
+    </header>
+    <main>
+ <div class="Banner">
 
-        .menu-right {
-            position: absolute;
-            right: 30px;
-        }
-        .menu-right a {
-            color: rgb(255, 255, 255);
-        text-decoration: none;
-        padding: 15px;
-        }
 
-        .menu-left {
-            color: rgb(255, 255, 255);
-        }
-        .menu-left a {
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        margin: 3px;
-        }
-        body {
-            margin: 0px;
-            background: url(https://newevolutiondesigns.com/images/freebies/pink-wallpaper-18.jpg)
-        }
-        .menu-right a:hover {
-            color: #000;
-        }
-
-        .email {
-            display: inline-block;
-            margin-top: 80px;
-            font-size: 30px;
-        }
-        .search {
-           width: fit-content;
-            margin: auto;
-        }
-    </style>
-    <div class="menu">
-        <span class="menu-left">Меню</span>
-        <span class="menu-right">
-                <a href="https://ya.ru">гугл</a>
-                <a href="index.html">котик</a>
-        </span>   
+    </div>
+    <div class="main-cards">
+        <div class="main-header">
+            <h3>Лучшее</h3>
+            <p> если не хватает радости в жизни</p>
+        </div>
+        <div class="main-humsters">
+           <div class="humster-card">
+            <div class="card-img">
+                <img width="190px" src="https://images.wallpaperscraft.ru/image/homyak_sidet_vzglyad_ispug_81705_2560x1440.jpg">
+            </div>
+            <div class="text">
+                <h5>Гайка</h5>
+                <p>
+                Какая-то мышь
+                </p>
+                <a href="#" class="card-button">Подробнее</a>
+            </div>
+        </div> 
+        </div>
+        
     </div>
 
-    <div>
+    </main>
+   <footer class="footer" id="footer">
+<div>
         <form>
             <div class="email">
                     Ввидите почту:<input type="text" name="email">
@@ -76,5 +62,11 @@
                 </div>
             </form>
         </div>
+   </footer>
+
+    
+
+
+    
 </body>
 </html>
